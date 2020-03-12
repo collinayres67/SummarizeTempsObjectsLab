@@ -17,7 +17,7 @@ namespace SummarizeTempsObjects
             accessor.LoadTemperatureData();
 
             if (accessor.Temperatures.Count > 0)
-            {
+            {  
                 TempCalculationEngine engine = new TempCalculationEngine(accessor.Temperatures);
 
                 bool repeat = true;
